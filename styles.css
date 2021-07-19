@@ -1,0 +1,191 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #F09555;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #D94941;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #D94941;
+}
+
+p {
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav {
+ width: 100%;
+ height: 150px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ text-align: center;
+ background-color: #D94941;
+}
+
+.menu-link {
+    margin: 5px;
+    font-size: 1.2rem;
+    text-decoration: underline  1px;
+    color:#F09555;
+}
+
+#sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-image: url(https://www.ecestaticos.com/imagestatic/clipping/868/9ca/8689ca73237158da46e457a120354717/por-que-los-aviones-comerciales-no-llevan-paracaidas-para-casos-de-emergencia.jpg?mtime=1622472434);
+    background-size: cover;
+    background-position: center;
+}
+
+#sobre div {
+    width: 100%;
+    height: 100px;
+    background-color:  #F09555;
+    opacity: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sobre div p {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+
+#text-container {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#paquetes {
+    background-color: #F8BF4A;
+}
+
+#paquetes #text-container {
+    text-decoration: underline #D94941;
+    font-weight: bold;
+}
+
+#paquetes #text-container p {
+    color:#D94941;
+}
+
+#paquetes h3 {
+    text-decoration: underline;
+}
+
+#paquetes-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.paquete {
+    display: flex;
+    height: 200px;
+    width: 400px;
+    border: 5px #D94941 solid;
+    border-radius: 6px;
+    margin: 20px 15px;
+}
+
+
+
+.paquete img {
+    height: auto;
+    width: 200px;
+}
+
+.paquete div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+    text-align: center;
+    background-color: #F09555;
+}
+
+.paquete div p {
+    color:white;
+    font-weight: 700;
+}
+
+
+#equipo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    background-color:#F09555;
+    background-image: url(https://static.tokkobroker.com/pictures/3339272182868913227435749726586680956175911339490369538437886866647876337073.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#equipo #text-container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    z-index: 2;
+}
+
+#equipo p {
+    background-color:#F09555;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding: 2rem 0;
+    opacity: 90%;
+}
+
+#contact {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #D94941;
+}
+
+#contact h3 {
+    color:#F09555;
+}
+
+#contact h2 {
+    top: 1rem;
+    color:#F09555;
+}
